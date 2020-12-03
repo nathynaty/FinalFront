@@ -1,0 +1,31 @@
+<div class="container">
+
+    <form>
+        <div class="form-group">
+            <label position="stacked">Marca</label>
+            <input class="form-control" autocomplete="off" type="text" [(ngModel)]="marca" name="marca" id="marca" />
+        </div>
+        <div class="form-group">
+            <label position="stacked">Modelo</label>
+            <input class="form-control" autocomplete="off" type="text" [(ngModel)]="modelo" name="modelo" id="modelo" />
+        </div>
+        <div class="form-group">
+            <label position="stacked">Usuario_id</label>
+            <input class="form-control" autocomplete="off" type="text" [(ngModel)]="usuario_id" name="usuario_id" />
+        </div> 
+        <div class="form-group"> 
+            <label position="stacked">Usuario que actualiza</label>
+            <input class="form-control" autocomplete="off" type="text" [(ngModel)]="usuario_actualiza" name="usuario_actualiza" />
+        </div>
+        <div class="form-group">
+            <label position="stacked">Color</label>
+            <input class="form-control" autocomplete="off" type="text" [(ngModel)]="color" name="color" />
+        </div>
+        <div class="form-group">
+            <label position="stacked">Placa</label>
+            <input class="form-control" autocomplete="off" type="text" [(ngModel)]="placa" name="placa" />
+        </div>
+    </form>
+    <button (click)="editar_vehiculo();" expand="" share="round" class="registerButton btn btn-success">Editar</button>
+
+</div>

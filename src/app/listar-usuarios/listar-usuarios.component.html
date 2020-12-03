@@ -1,0 +1,8 @@
+<div class="container">
+    
+    <h1 class="centro">Usuarios</h1>
+    <br>
+    <ul *ngFor="let user of lista_usuarios">
+        <li class="estilo-ul"><a class="decoracion-texto:hover" href="usuario/{{user.id}}">{{ user.nombre }}</a></li>
+    </ul>
+</div>

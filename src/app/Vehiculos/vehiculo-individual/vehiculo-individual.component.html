@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>{{vehiculo.marca}}</h1> 
+    <ul>
+        <li class="estilo-ul">Modelo: {{vehiculo.modelo}}</li>
+        <li class="estilo-ul">Color: {{vehiculo.color}}</li>
+        <li class="estilo-ul">Placa: {{vehiculo.placa}}</li>
+        <li class="estilo-ul">id_dueño: {{vehiculo.usuario_id}}</li>
+        <li class="estilo-ul">Quien actualizo por ultima ves: {{vehiculo.usuario_actualiza}}</li>
+    </ul>
+    <br>
+    <a class="decoracion-texto:hover" href="editar-vehiculo/{{vehiculo.id}}">Editar vehiculo</a>
+    <br>
+    <button (click)="eliminar_vehiculo();" expand="" share="round" class="registerButton btn btn-danger">Eliminar vehiculo</button>
+
+</div>

@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>{{usuario.nombre}}</h1> 
+    <ul>
+        <li class="estilo-ul">Email: {{usuario.email}}</li>
+        <li class="estilo-ul">Telefono: {{usuario.telefono}}</li>
+    </ul>
+    <br>
+    <a class="decoracion-texto:hover" href="editar-usuario/{{usuario.id}}">Editar Usuario</a>
+    <br>
+    <button (click)="eliminar_usuario();" expand="" share="round" class="registerButton btn btn-danger">Eliminar Usuario</button>
+
+</div>

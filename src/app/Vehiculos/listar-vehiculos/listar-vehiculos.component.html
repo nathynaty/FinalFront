@@ -1,0 +1,9 @@
+<div class="container">
+    
+    <h1 class="centro">Vehiculos</h1>
+    <br>
+    <ul *ngFor="let vehiculo of lista_vehiculos">
+        <li class="estilo-ul"><a class="decoracion-texto:hover" href="vehiculo/{{vehiculo.id}}">{{ vehiculo.marca }}</a></li>
+        <li class="estilo-ul"><a class="decoracion-texto:hover">{{ vehiculo.modelo }}</a></li>
+    </ul>
+</div>

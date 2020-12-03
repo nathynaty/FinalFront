@@ -1,0 +1,21 @@
+<div class="container">
+   <form>
+        <div class="form-group">
+            <label position="stacked">Email</label>
+            <input class="form-control" autocomplete="off" type="email" [(ngModel)]="email" name="email" id="email" />
+        </div>
+        <div class="form-group">
+            <label position="stacked">Nombre</label>
+            <input class="form-control" autocomplete="off" type="text" [(ngModel)]="nombre" name="nombre" id="nombre" />
+        </div>
+        <div class="form-group">
+            <label position="stacked">Password</label>
+            <input class="form-control" autocomplete="off" type="text" [(ngModel)]="password" name="password" />
+        </div> 
+        <div class="form-group"> 
+            <label position="stacked">Telefono</label>
+            <input class="form-control" autocomplete="off" type="text" [(ngModel)]="telefono" name="telefono" />
+        </div>
+   </form>
+    <button (click)="editar_usuario();" expand="" share="round" class="registerButton btn btn-success">Editar</button>
+</div>
